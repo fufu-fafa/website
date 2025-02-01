@@ -2635,6 +2635,7 @@ input, select, textarea {
 			.image.fit.main {
 				width:75%;
 				height: auto;
+                                margin: 0 auto;
 			}
 			
 		.image.main {
