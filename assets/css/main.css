@@ -2713,14 +2713,21 @@ input, select, textarea {
 			margin-left: 0;
 		}
 
-		.actions.special .button {
+		.actions.special .button.adjust {
 			position: absolute;
 			margin-top: auto;
-			bottom: 20px;
+			bottom: 25px;
 			left: 50%;
 			transform: translateX(-50%);
 			width: max-content;
 			height: 30px; /* Adjust this value as needed */
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.actions.special .button {
+			height: 35px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
