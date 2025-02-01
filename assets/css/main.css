@@ -244,7 +244,7 @@ input, select, textarea {
 	}
 
 	code {
-		border: solid 2px;
+		border: solid 0px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
@@ -260,8 +260,10 @@ input, select, textarea {
 
 		pre code {
 			display: block;
+			background-color: #383838;
+			border-radius: 10px;
 			line-height: 1.75;
-			padding: 1rem 1.5rem;
+			padding: 1.5rem 1.5rem;
 			overflow-x: auto;
 		}
 
@@ -2712,6 +2714,12 @@ input, select, textarea {
 		}
 
 		.actions.special .button {
+			position: absolute;
+			margin-top: auto;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: max-content;
 			height: 30px; /* Adjust this value as needed */
 			display: flex;
 			align-items: center;
@@ -3771,6 +3779,20 @@ input, select, textarea {
 
 /* Main */
 
+	.post.featured pre {
+		background-color: #1e1e1e;
+		color: #ffffff;
+		padding: 1rem;
+		margin: 1rem auto;
+		height: 75vh;
+		border-radius: 15px;
+		text-align: left;
+		display: block; 
+		width: 75%; 
+		white-space: pre; 
+		overflow-x: auto; 
+	}
+
 	#main {
 		background-color: #ffffff;
 		position: relative;
@@ -3878,6 +3900,8 @@ input, select, textarea {
 			}
 
 			#main > .posts > article {
+				position: relative;
+				padding-bottom: 3rem;
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
