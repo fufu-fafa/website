@@ -2716,7 +2716,7 @@ input, select, textarea {
 		.actions.special .button.adjust {
 			position: absolute;
 			margin-top: auto;
-			bottom: 35px;
+			bottom: 3rem;
 			left: 50%;
 			transform: translateX(-50%);
 			width: max-content;
@@ -3912,7 +3912,7 @@ input, select, textarea {
 
 			#main > .posts > article {
 				position: relative;
-				padding-bottom: 3rem;
+				padding-bottom: 5rem;
 				border-color: #eeeeee;
 				border-left-width: 2px;
 				border-style: solid;
