@@ -39,15 +39,18 @@
 							<section class="post">
 								<header class="major">
 									<span class="date">April 25, 2017</span>
-									<h1>This is a<br />
-									Generic Page</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<h1>555 Timer</h1>
+									<p>This circuit is a 555 timer in astable mode, which generates a continuous square wave signal. The LED connected to Pin 3 (Output) will blink on and off at a frequency determined by the resistor and capacitor values.</p>
 								</header>
 								<div class="image main"><img src="img/kicad.png" alt="kicad" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+								<p>This circuit is a 555 timer-based astable multivibrator, designed to generate a continuous square wave signal. By using a combination of resistors and a capacitor, the circuit controls the timing of the output pulse, causing an LED to blink at a steady rate. The 555 timer operates by repeatedly charging and discharging the capacitor, switching the output between high and low states. The LED, connected to the output pin, turns on when the output is high and off when it is low, resulting in a flashing effect. The frequency of blinking is determined by the values of the resistors and capacitor, which can be adjusted to modify the speed of the LED’s flashing. This simple yet effective circuit is commonly used for clock pulses, LED indicators, and basic timing applications.</p>
+								<h3>How It Works</h3>
+								<ol>
+									<li>The 555 timer continuously switches between high and low states, creating a pulse wave output.</li>
+									<li>The frequency and duty cycle of the blinking LED are controlled by the 10kΩ and 1kΩ resistors and the 10µF capacitor.</li>
+									<li>Since Pin 2 (Trigger) and Pin 6 (Threshold) are shorted, the capacitor charges and discharges repeatedly, cycling the timer.</li>
+									<li>The LED blinks as the output switches between HIGH and LOW.</li>
+								</ol>
 							</section>
 
 					</div>

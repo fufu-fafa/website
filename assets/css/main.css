@@ -3786,6 +3786,10 @@ input, select, textarea {
 
 /* Main */
 
+	.post h3 {
+		margin-top: 4rem;
+	}
+
 	.post.featured pre {
 		background-color: #1e1e1e;
 		color: #ffffff;
