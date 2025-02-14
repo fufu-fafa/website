@@ -1,11 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector(".lazy-load");
-    const spinner = document.querySelector(".spinner");
-
-    img.onload = () => {
-        img.classList.add("loaded");
-        spinner.style.display = "none"; // Hide spinner after load
-    };
+    img.onload = () => img.classList.add("loaded");
 });
 
 /* extra before this */
