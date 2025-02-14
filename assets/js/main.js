@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector(".lazy-load");
-    img.onload = () => img.classList.add("loaded");
+    const spinner = document.querySelector(".spinner");
+
+    img.onload = () => {
+        img.classList.add("loaded");
+        spinner.style.display = "none"; // Hide spinner after load
+    };
 });
 
 /* extra before this */
