@@ -1,7 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
     const img = document.querySelector(".lazy-load");
-    img.onload = () => img.classList.add("loaded");
+    const container = document.querySelector(".image.main");
+
+    img.onload = () => {
+        img.classList.add("loaded");
+        container.classList.add("loaded"); // Change background on load
+    };
 });
+
 
 /* extra before this */
 
