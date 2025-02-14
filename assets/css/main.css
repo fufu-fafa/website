@@ -2664,17 +2664,6 @@ input, select, textarea {
 			margin: 0 auto;
 		}
 
-		.lazy-load {
-			display: block;
-			object-fit: cover;
-			opacity: 0;
-			transition: opacity 0.5s ease-in-out;
-		}
-
-		.lazy-load.loaded {
-			opacity: 1;
-		}
-
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
