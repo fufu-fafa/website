@@ -1,8 +1,9 @@
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+document.addEventListener("DOMContentLoaded", function () {
+    const img = document.querySelector(".lazy-load");
+    img.onload = () => img.classList.add("loaded");
+});
+
+/* extra before this */
 
 (function($) {
 

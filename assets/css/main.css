@@ -2641,6 +2641,7 @@ input, select, textarea {
 			}
 			
 		.image.main {
+			background: #f0f0f0;
 			display: block;
 			margin: 4rem auto;
 			width: 100%;
@@ -2661,6 +2662,16 @@ input, select, textarea {
 			width: 50%;
 			display: block;
 			margin: 0 auto;
+		}
+
+		.lazy-load {
+			object-fit: cover;
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+		}
+
+		.lazy-load.loaded {
+			opacity: 1;
 		}
 
 		@media screen and (max-width: 736px) {
