@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const img = document.querySelector(".lazy-load");
-    img.onload = () => img.classList.add("loaded");
+document.querySelectorAll(".lazy-load").forEach(img => {
+    img.addEventListener("load", () => img.classList.add("loaded"));
+    if (img.complete) img.classList.add("loaded"); // Handle cached images
 });
-
 
 /* extra before this */
 
