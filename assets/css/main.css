@@ -2666,7 +2666,6 @@ input, select, textarea {
 
 		.lazy-load {
 			object-fit: cover;
-			background: #f0f0f0;
 			opacity: 0;
 			transition: opacity 0.5s ease-in-out;
 		}
