@@ -113,6 +113,10 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	::-webkit-scrollbar {
+		display: none;
+	}		
+	
 /* Type */
 
 	html {
