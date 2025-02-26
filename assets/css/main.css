@@ -248,7 +248,7 @@ input, select, textarea {
 	}
 
 	code {
-		border: solid 0px;
+		border: solid 2px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
@@ -264,10 +264,8 @@ input, select, textarea {
 
 		pre code {
 			display: block;
-			background-color: #383838;
-			border-radius: 10px;
 			line-height: 1.75;
-			padding: 1.5rem 1.5rem;
+			padding: 1rem 1.5rem;
 			overflow-x: auto;
 		}
 
