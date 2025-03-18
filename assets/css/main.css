@@ -2637,9 +2637,15 @@ input, select, textarea {
 			}		
 
 			.image.fit.main {
-				width:75%;
+				width: 75%;
 				height: auto;
                 margin: 0 auto;
+			}
+
+			.image.fit.small {
+				width: 82%;
+				height: auto;
+				margin: 0 auto;
 			}
 			
 		.image.main {
